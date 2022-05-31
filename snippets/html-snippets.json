@@ -4,13 +4,11 @@
     "body": [
       "<parsec-btn",
       "\t@click=\"${1:}\"",
-      "\t:label=\"${2:$t('')}\"",
-      "\t:icon=\"${3:}\"",
-      "\t:tooltip=\"${4:$t('')}\"",
-      ">",
-      "\t$0",
-      "</parsec-btn>"
+      "\t:label=\"${2:$$t('')}\"",
+      "\t:tooltip=\"${3:$$t('')}\"",
+      "\ticon=\"${4:}\"",
+      "/>"
     ],
     "description": "Parsec Button"
-  },
+  }
 }
