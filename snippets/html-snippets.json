@@ -3,12 +3,10 @@
     "prefix": "pbtn",
     "body": [
       "<parsec-btn",
-      "\tside=\"${1:left}\"",
-      "\tv-model=\"${2:drawerLeft}\"",
-      "\t${3:bordered}",
-      "\t:width=\"${4:200}\"",
-      "\t:breakpoint=\"${5:500}\"",
-      "\tcontent-class=\"${6:bg-grey-3}\"",
+      "\t@click=\"${1:}\"",
+      "\t:label=\"${2:$t('')}\"",
+      "\t:icon=\"${3:}\"",
+      "\t:tooltip=\"${4:$t('')}\"",
       ">",
       "\t$0",
       "</parsec-btn>"
