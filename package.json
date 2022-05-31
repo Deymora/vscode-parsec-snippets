@@ -1,15 +1,12 @@
 {
-	"name": "quasar-snippets",
-	"displayName": "Quasar Snippets",
-	"description": "vscode snippets for quasar-framework ",
-	"version": "1.0.0",
-	"publisher": "abdelaziz18003",
+	"name": "parsec-snippets",
+	"displayName": "Parsec Snippets",
+	"description": "vscode snippets for parsec next",
+	"version": "0.0.1",
+	"publisher": "Deymora",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Abdelaziz18003/vscode-quasar-snippets.git"
-	},
-	"scripts": {
-		"pug": "vsc-snippets-html2pug --src snippets/html-snippets.json --dist snippets/jade-snippets.json"
+		"url": "https://github.com/Deymora/vscode-parsec-snippets.git"
 	},
 	"icon": "images/icon.png",
 	"engines": {
@@ -27,14 +24,6 @@
 			{
 				"language": "vue-html",
 				"path": "./snippets/html-snippets.json"
-			},
-			{
-				"language": "jade",
-				"path": "./snippets/jade-snippets.json"
-			},
-			{
-				"language": "vue-jade",
-				"path": "./snippets/jade-snippets.json"
 			}
 		]
 	},
