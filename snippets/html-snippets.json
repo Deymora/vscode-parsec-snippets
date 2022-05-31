@@ -2,14 +2,7 @@
   "ParsecBtn": {
     "prefix": "pbtn",
     "body": [
-      "<parsec-btn v-model=\"${1:header}\" ${2:reveal} ${3:elevated} ${4:bordered}>$0</q-header>"
-    ],
-    "description": "Parsec Button"
-  },
-  "QDrawer": {
-    "prefix": "qdrawer",
-    "body": [
-      "<q-layout-drawer",
+      "<parsec-btn",
       "\tside=\"${1:left}\"",
       "\tv-model=\"${2:drawerLeft}\"",
       "\t${3:bordered}",
@@ -18,8 +11,8 @@
       "\tcontent-class=\"${6:bg-grey-3}\"",
       ">",
       "\t$0",
-      "</q-layout-drawer>"
+      "</parsec-btn>"
     ],
-    "description": "QDrawer is the sidebar part of your QLayout."
-  }
+    "description": "Parsec Button"
+  },
 }
