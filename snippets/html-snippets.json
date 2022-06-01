@@ -21,7 +21,7 @@
       ">",
       "\t<template #option-toolbar=\"{option}\">\"",
       "\t\t<parsec-icon",
-      "\t\t\tname=\"icon-trash\"",
+      "\t\t\tname=\"icon-\"",
       "\t\t\t@click.stop=\"() => func(option)\"",
       "\t\t\t:label=\"${1:$$t('')}\"",
       "\t\t/>",
