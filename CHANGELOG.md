@@ -4,6 +4,16 @@ All notable changes to the "parsec-snippets" extension will be documented in thi
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [0.1.2] - 2022-06-01
+
+### added
+-   ParsecBtnDrop
+
+## [0.1.1] - 2022-05-31
+
+### added
+-   ParsecBtn
+
 ## [0.1.0] - 2022-05-31
 
 Initial forked release
