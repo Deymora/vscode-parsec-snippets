@@ -2,7 +2,7 @@
 	"name": "parsec-snippets",
 	"displayName": "Parsec Snippets",
 	"description": "vscode snippets for parsec next",
-	"version": "0.0.1",
+	"version": "0.1.2",
 	"publisher": "Deymora",
 	"repository": {
 		"type": "git",
