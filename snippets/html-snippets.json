@@ -23,11 +23,39 @@
       "\t\t<parsec-icon",
       "\t\t\tname=\"icon-\"",
       "\t\t\t@click.stop=\"() => func(option)\"",
-      "\t\t\t:label=\"${1:$$t('')}\"",
+      "\t\t\t:label=\"${4:$$t('')}\"",
       "\t\t/>",
       "\t</template>",
       "</parsec-btn-dropdown>"
     ],
     "description": "Parsec Dropdown Button"
+  },
+  "ParsecTable": {
+    "prefix": "ptable",
+    "body": [
+      "<parsec-table",
+      "\t:class=\"$attrs.class\"",
+      "\t:items=\"${1:}\"",
+      "\tv-model:page-sort=\"${2:pageSort}\"",
+      "\tv-model:filter=\"${3:filter}\"",
+      "\tv-model:filter=\"${4:showFilter}\"",
+      "\t:filter-options=\"${5:filterOptions}\"",
+      "\t:columns=\"${6:columns}\"",
+      "\tref=\"${7:table}\"",
+      "\trow-key=\"${8:}\"",
+      "\t:context-menu-items=\"${9:contextMenuItems}\"",
+      "\t@row-click=\"({ row }) => ${10:func}(row)\"",
+      "\ttable-settings-name=\"${11:}\"",  
+      "\t:selection=\"${12:}\"",
+      "\tv-model:selected-items=\"${13:selectedItems}\"",
+      "\t${14:floating-paginator-position}",
+      "\t${15:inline}",
+      ">",
+      "\t\t<template #cell-${16:=}\"{ row }\"",
+      "\t\t\t${17:}",
+      "\t\t</template>",
+      "</parsec-table>"
+    ],
+    "description": "Parsec Table"
   }
 }
