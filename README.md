@@ -24,3 +24,5 @@ pbtnd + [tab] =>
   </template>
 </parsec-btn-dropdown>
 ```
+
+**Enjoy!**
