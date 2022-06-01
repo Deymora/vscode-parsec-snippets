@@ -51,7 +51,7 @@
       "\t${14:floating-paginator-position}",
       "\t${15:inline}",
       ">",
-      "\t\t<template #cell-${16:=}\"{ row }\"",
+      "\t\t<template #cell-${16:name=}\"{ row }\"",
       "\t\t\t${17:}",
       "\t\t</template>",
       "</parsec-table>"
