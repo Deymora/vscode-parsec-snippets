@@ -9,9 +9,9 @@ All you need to do is typing the component's name **all in lowercase** and press
 ``` html
 pbtn + [tab] =>
 <parsec-btn
-    @click=""
-    :label="$t('')"
-    :icon=""
-    :tooltip="$t('')"
+  @click=""
+  :label="$t('')"
+  :icon=""
+  :tooltip="$t('')"
 />
 ```

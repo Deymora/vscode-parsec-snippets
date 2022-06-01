@@ -1,32 +1,32 @@
 {
-	"name": "parsec-snippets",
-	"displayName": "Parsec Snippets",
-	"description": "vscode snippets for parsec next",
-	"version": "0.1.2",
-	"publisher": "Deymora",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/Deymora/vscode-parsec-snippets.git"
-	},
-	"icon": "images/icon.png",
-	"engines": {
-		"vscode": "^1.28.0"
-	},
-	"categories": [
-		"Snippets"
-	],
-	"contributes": {
-		"snippets": [
-			{
-				"language": "html",
-				"path": "./snippets/html-snippets.json"
-			},
-			{
-				"language": "vue-html",
-				"path": "./snippets/html-snippets.json"
-			}
-		]
-	},
-	"devDependencies": {
-	}
+  "name": "parsec-snippets",
+  "displayName": "Parsec Snippets",
+  "description": "vscode snippets for parsec next",
+  "version": "0.1.2",
+  "publisher": "Deymora",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Deymora/vscode-parsec-snippets.git"
+  },
+  "icon": "images/icon.png",
+  "engines": {
+    "vscode": "^1.28.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "html",
+        "path": "./snippets/html-snippets.json"
+      },
+      {
+        "language": "vue-html",
+        "path": "./snippets/html-snippets.json"
+      }
+    ]
+  },
+  "devDependencies": {
+  }
 }
