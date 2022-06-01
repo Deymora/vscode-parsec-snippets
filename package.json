@@ -1,7 +1,7 @@
 {
   "name": "parsec-snippets",
   "displayName": "Parsec Snippets",
-  "description": "vscode snippets for parsec next",
+  "description": "VSCode snippets for Parsec Next",
   "version": "0.1.2",
   "publisher": "Deymora",
   "repository": {

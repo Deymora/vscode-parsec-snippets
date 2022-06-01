@@ -7,11 +7,18 @@ This plugin provides snippets with the basic usage syntax for the most used comp
 All you need to do is typing the component's name **all in lowercase** and press tab. (all components will follow this logic).
 
 ``` html
-pbtn + [tab] =>
-<parsec-btn
-  @click=""
+pbtnd + [tab] =>
+<parsec-btn-dropdown
   :label="$t('')"
-  :icon=""
-  :tooltip="$t('')"
-/>
+  :options="options"
+  @item-click=""
+>
+  <template #option-toolbar="{option}">"
+    <parsec-icon
+      name="icon-"
+      @click.stop="() => func(option)"
+      :label="$t('')"
+    />
+  </template>
+</parsec-btn-dropdown>
 ```
